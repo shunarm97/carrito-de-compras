@@ -1,0 +1,55 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body {
+    background-color: wheat; 
+}
+
+.row {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto ;
+margin: 20px;
+padding: 20px;
+flex-wrap: wrap;
+background-color: white;
+border-radius: 10px;
+    
+}
+.card {
+    width: 20px;
+}
+.table {
+    background-color: aqua;
+    width: 98%;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center
+}
+.table tr {
+    background-color: beige;
+    border: 2px solid black;
+}
+.btn-sm {
+    background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+    width: 30px;
+    font-size: 16px;
+    /* margin: 10px; */
+}
+.table td {
+    align-content: center;
+    padding: 0 10px;
+    text-align: center;
+}
+.btn-comprar {
+    width: 100px;
+}
+
+/* font-family: 'Oswald', sans-serif; */
